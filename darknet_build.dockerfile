@@ -9,11 +9,6 @@ ARG opencv_version=4.10.0
 
 ENV DEBIAN_FRONTEND=noninteractive 
 
-
-LABEL "author.name"="Henrycke Bozza Schenberk"   \
-"author.email"="oschenberk@gmail.com"
-
-
 WORKDIR /deps
 
 RUN apt-get update -y
